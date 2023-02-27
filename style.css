@@ -1,0 +1,26 @@
+body
+{
+
+    background-image: url("/images/backgggg.jpg");
+}
+#logo
+{
+width: 55px;
+height: 55px;
+border-radius: 50%;
+overflow: hidden;
+margin-top: -6px;
+}
+h3{
+    color: antiquewhite;
+    
+}
+h5{
+color: antiquewhite;
+}
+h1{
+color: antiquewhite;
+}
+h4{
+    color: antiquewhite;
+}
