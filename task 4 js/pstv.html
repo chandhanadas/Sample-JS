@@ -1,0 +1,25 @@
+<html>
+<body>
+<script> 
+function check()
+ {
+    var x ;
+    x=document.getElementById("num").value;
+if(x<0)
+{
+ document.getElementById("ans").value="Negative";
+}
+else if(x>0)
+{
+ document.getElementById("ans").value="Positive";
+}
+else {
+document.getElementById("ans").value="0";
+}  
+}
+</script>
+Enter num<input type="number" id="num">
+<button type="button" onclick="check()">check</button>
+<input type="text" id="ans">
+</body>
+</html

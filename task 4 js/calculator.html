@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <script>
+            function addition()
+            {
+                var num1,num2,sum;
+                num1=parseInt(document.getElementById("num1").value);
+                num2=parseInt(document.getElementById("num2").value);
+                res=num1+num2;
+                document.getElementById("display").value=res;
+            }
+            function substraction()
+            {
+                var num1,num2,sum;
+                num1=parseInt(document.getElementById("num1").value);
+                num2=parseInt(document.getElementById("num2").value);
+                res=num1-num2;
+                document.getElementById("display").value=res;
+            }
+            function Multipplication()
+            {
+                var num1,num2,sum;
+                num1=parseInt(document.getElementById("num1").value);
+                num2=parseInt(document.getElementById("num2").value);
+                res=num1*num2;
+                document.getElementById("display").value=res;
+            }
+            function Division()
+            {
+                var num1,num2,sum;
+                num1=parseInt(document.getElementById("num1").value);
+                num2=parseInt(document.getElementById("num2").value);
+                res=num1/num2;
+                document.getElementById("display").value=res;
+            }
+        </script>
+        <label>Enter the first number:</label><input type="number" id="num1"><br>
+        <label>Enter the second number:</label><input type="number" id="num2" ><br>
+        <button type="button" onclick="addition()">Add</button><br>
+        <button type="button" onclick="substraction()">sub</button><br>
+        <button type="button" onclick="Multipplication()">mul</button><br>
+        <button type="button" onclick="Division()">div</button><br>
+        <p>Result<input type="number" id="display"></p>
+    </body>
+</html>

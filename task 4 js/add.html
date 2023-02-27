@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Addition</title>
+    </head>
+    <body>
+        <script>
+            function addition()
+            {
+                var num1,num2,sum;
+                num1=parseInt(document.getElementById("num1").value);
+                num2=parseInt(document.getElementById("num2").value);
+                sum=num1+num2;
+                document.getElementById("display").value=sum;
+            }
+        </script>
+        <label>Enter the first number:</label><input type="number" id="num1"><br>
+        <label>Enter the second number:</label><input type="number" id="num2" ><br>
+        <button type="button" onclick="addition()">Add</button><br>
+        <p>Sum<input type="number" id="display"></p>
+    </body>
+</html>
