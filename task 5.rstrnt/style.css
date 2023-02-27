@@ -1,0 +1,113 @@
+.first{
+    background-image: url("/backgrnd.jpg");
+    background-size: cover;
+    margin-left: 1px;
+    border: 1px solid;
+    margin-right: 1px;
+    height: 800px;
+    width: 100%;
+}
+#logo{
+    width: 70px;
+    height:60px;
+    border-radius: 80%;
+    overflow: hidden;
+    margin-top: -10px;
+}
+.firstin{
+           margin-top: 35px;
+           margin-left: 900px;
+           margin-right: 50px;
+}
+h3{
+    color:yellow;
+}
+.firstlast{
+           
+           margin-top:45px;
+           margin-left: 1000px;
+           margin-right: 50px;
+}
+p{
+    color: yellow;
+    font-size:25px;
+    
+}
+#menubar{
+    background-color: darkred;
+    /* border: 1px; */
+    margin-top: -20px;
+    margin-left:1px ;
+    margin-right: 700px;
+    /* height: 55%; */
+}
+.coffee{
+    background-image: url("/cfee.jpg") ;
+    margin-top: -10px;
+     margin-left: 80px; 
+    margin-right: 600px; 
+    width: 400px;
+    height: 400px;
+
+}
+#list{
+    
+    margin-top: -350px;
+     margin-left: 480px;
+    /* height: 200px; */
+    border-bottom: 15px black solid;
+    border-bottom-left-radius: 30px;
+    width: 20%;
+}
+.biriyani{
+    background-color: white;
+    border: 1px solid white;
+    margin-top: -100px;
+     margin-left: 700px; 
+    margin-right: 1px; 
+    width: 500px;
+    height: 250px;
+}
+.last{
+    background-image: url("/tea.jpeg");
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+    
+
+}
+#one{
+       background-color: black;
+       height: 450px;
+       width: 300px;
+       opacity: .5;
+       color: darkgray;
+       text-align: center;
+       
+}
+#two{
+    background-color: gray;
+    height: 450px;
+    width: 300px;
+    opacity: .5;
+    color: yellow;
+    text-align: center;
+}
+#three{
+    background-color: darkgoldenrod;
+    height: 450px;
+    width: 300px;
+    opacity: .5;
+    color: black;
+    text-align: center;
+    
+}
+.cooking{
+           margin-top: 1px;
+           margin-left: 400px;
+           margin-right: 400px;
+}
+h2{
+    color: yellow;
+}
+
